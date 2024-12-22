@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alert</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 border-4">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-1" href="#"><span class="text-primary">Roberto</span> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">Rooms</a></li>
+                   <li><a class="dropdown-item" href="#">Single Room</a></li>
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            </ul>
+         
+          </div>
+        </div>
+      </nav>
+    
+
+
+    <br>
+    
+    
+    <input type="submit" onclick="fnalert();" value="Click Me For 1st Alert">
+    <br><br>
+      <input type="submit" onclick="fnalert2();" value="Click Me For 2nd Alert">
+      <br><br>
+      <input type="submit" onclick="fnalert3();" value="Click Me For 3rd Alert">
+      <br><br>
+      <input type="submit" onclick="fnalert4();" value="Click Me For 4th Alert">
+      <script>
+        function fnalert(){
+            alert("Error! Please enter a valid password");
+        }
+        function fnalert2(){
+            alert("Welcome to JS land...\nHappy Coding!");
+        }
+        function fnalert3(){
+            alert("Welcome to JS land...");
+            alert("Happy Coding!");
+        }
+        function fnalert4(){
+            console.log("Hello I can Run JS trough my web browser's console");
+        }
+        </script>
+</body>
+
+</html>
